@@ -8,7 +8,7 @@ O objetivo do projeto é reunir em uma única página os principais canais de co
 
 ## 📌 Sobre o projeto
 
-Este projeto funciona como uma página de apresentação rápida para a AlvaradoTech.
+Este projeto funciona como uma página de apresentação rápida para a **AlvaradoTech**.
 
 A página possui:
 
@@ -17,7 +17,9 @@ A página possui:
 * Botões com ícones;
 * Links para WhatsApp, Instagram, GitHub, LinkedIn e Portfólio;
 * Estado visual para botão em construção;
-* Layout responsivo para celular, tablet e iPhone.
+* Favicon personalizado com a identidade da marca;
+* Metadados configurados para o navegador;
+* Layout responsivo para desktop, tablet, celulares Android e iPhone.
 
 ---
 
@@ -28,7 +30,8 @@ A página possui:
 * TypeScript
 * CSS
 * React Icons
-* Git e GitHub
+* Git
+* GitHub
 
 ---
 
@@ -38,6 +41,7 @@ A página possui:
 app/
 ├── Dados/
 │   └── empresa.tsx
+├── favicon.ico
 ├── globals.css
 ├── layout.tsx
 └── page.tsx
@@ -90,7 +94,7 @@ http://localhost:3000
 
 ## 📱 Teste no celular pela mesma rede Wi-Fi
 
-Execute o projeto liberando acesso na rede:
+Execute o projeto liberando acesso pela rede local:
 
 ```bash
 npm run dev -- -H 0.0.0.0
@@ -102,7 +106,7 @@ Depois descubra o IP do computador:
 hostname -I
 ```
 
-No celular, abra:
+No celular, estando na mesma rede Wi-Fi, abra:
 
 ```txt
 http://SEU-IP:3000
@@ -116,27 +120,39 @@ http://192.168.1.50:3000
 
 ---
 
-## 🌐 Teste com link público temporário
+## 🧩 Funcionalidades
 
-Para testar usando dados móveis, é possível usar o LocalTunnel:
-
-```bash
-npx localtunnel --port 3000
-```
-
-O terminal vai gerar um link público temporário.
+* Componente de botão reutilizável;
+* Ícones utilizando `react-icons`;
+* Dados da empresa separados da estrutura visual;
+* Botão de portfólio com estado visual de construção;
+* Favicon personalizado;
+* Metadata configurada no `layout.tsx`;
+* CSS separado por responsabilidade;
+* Responsividade para telas menores;
+* Ajustes para celulares e iPhones;
+* Build de produção testado com sucesso.
 
 ---
 
-## 🧩 Funcionalidades
+## 🧠 Organização dos dados
 
-* Botões reutilizáveis com componente próprio;
-* Ícones utilizando `react-icons`;
-* Dados da empresa separados da estrutura visual;
-* CSS organizado por responsabilidade;
-* Responsividade para telas menores;
-* Ajustes específicos para celulares e iPhones;
-* Botão de portfólio com estado visual de construção.
+As informações principais da empresa ficam centralizadas no arquivo:
+
+```txt
+app/Dados/empresa.tsx
+```
+
+Esse arquivo contém dados como:
+
+* Título do site;
+* Descrição;
+* Logo;
+* Links dos botões;
+* Ícones;
+* Estado de botão desativado.
+
+Essa organização facilita futuras alterações e prepara o projeto para receber dados vindos de uma API.
 
 ---
 
@@ -174,6 +190,44 @@ npm run build
 
 ---
 
+## ✅ Build de produção
+
+O projeto foi testado com:
+
+```bash
+npm run build
+```
+
+Resultado:
+
+```txt
+✓ Compiled successfully
+✓ Finished TypeScript
+✓ Generating static pages
+```
+
+A rota principal `/` foi gerada como página estática, ideal para uma página de links rápida e leve.
+
+---
+
+## 🌐 Deploy
+
+O projeto será publicado utilizando a **Vercel**, conectada ao repositório do GitHub.
+
+Fluxo planejado:
+
+```txt
+GitHub
+↓
+Vercel
+↓
+Deploy automático
+↓
+Link público oficial
+```
+
+---
+
 ## 📌 Status do projeto
 
 Projeto em desenvolvimento.
@@ -182,14 +236,16 @@ Próximas melhorias planejadas:
 
 * Publicação na Vercel;
 * Ajustes finais de SEO;
+* Configuração de domínio próprio;
 * Criação da página de portfólio;
 * Melhorias visuais;
 * Animações leves;
-* Integração com domínio próprio.
+* Atualização dos links oficiais.
 
 ---
 
 ## 👨‍💻 Autor
 
-Desenvolvido por **Rhaian Alvarado**
-Projeto da **AlvaradoTech Soluções Digitais**
+Desenvolvido por **Rhaian Alvarado**.
+
+Projeto da **AlvaradoTech Soluções Digitais**.
