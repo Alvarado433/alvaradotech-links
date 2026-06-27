@@ -1,0 +1,145 @@
+/* =========================================================
+   RESPONSIVIDADE EXTRA PARA IPHONE / CELULARES MENORES
+   Colocar no FINAL do arquivo responsividade.css
+========================================================= */
+
+/* iPhones maiores: 14 Pro Max, 15 Pro Max, 16 Pro Max etc */
+@media (max-width: 430px) {
+    .HomeCentralizado {
+        min-height: 100svh;
+        padding: 18px 14px;
+    }
+
+    .CardPrincipal {
+        width: 100%;
+        max-width: 390px;
+        padding: 30px 20px;
+        border-radius: 22px;
+    }
+
+    .CardPrincipalLogo {
+        width: 90px;
+        height: 90px;
+    }
+
+    .Titulo {
+        font-size: 32px;
+        line-height: 1.1;
+    }
+
+    .TituloDescricao {
+        font-size: 15px;
+        line-height: 1.5;
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .BotaoLink {
+        margin-top: 12px;
+        padding: 14px 16px;
+        font-size: 15px;
+        border-radius: 13px;
+    }
+
+    .BotaoIcone {
+        font-size: 20px;
+    }
+}
+
+/* iPhones médios: iPhone 12, 13, 14, 15 normal */
+@media (max-width: 390px) {
+    .HomeCentralizado {
+        padding: 16px 12px;
+    }
+
+    .CardPrincipal {
+        max-width: 360px;
+        padding: 28px 18px;
+    }
+
+    .CardPrincipalLogo {
+        width: 84px;
+        height: 84px;
+    }
+
+    .Titulo {
+        font-size: 30px;
+    }
+
+    .TituloDescricao {
+        font-size: 14px;
+        max-width: 280px;
+    }
+
+    .BotaoLink {
+        padding: 13px 14px;
+        font-size: 14px;
+    }
+}
+
+/* iPhones menores: SE, antigos ou tela bem pequena */
+@media (max-width: 360px) {
+    .HomeCentralizado {
+        padding: 14px 10px;
+    }
+
+    .CardPrincipal {
+        padding: 24px 16px;
+        border-radius: 20px;
+    }
+
+    .CardPrincipalLogo {
+        width: 78px;
+        height: 78px;
+    }
+
+    .Titulo {
+        font-size: 27px;
+    }
+
+    .TituloDescricao {
+        font-size: 13px;
+        max-width: 260px;
+    }
+
+    .BotaoLink {
+        margin-top: 10px;
+        padding: 12px 12px;
+        font-size: 13px;
+    }
+
+    .BotaoIcone {
+        font-size: 18px;
+    }
+}
+
+/* iPhone deitado / paisagem */
+@media (max-height: 500px) and (orientation: landscape) {
+    .HomeCentralizado {
+        padding: 12px;
+    }
+
+    .CardPrincipal {
+        padding: 20px;
+    }
+
+    .CardPrincipalLogo {
+        width: 70px;
+        height: 70px;
+    }
+
+    .Titulo {
+        font-size: 28px;
+    }
+
+    .TituloDescricao {
+        font-size: 13px;
+    }
+
+    .BotaoLink {
+        margin-top: 9px;
+        padding: 11px 14px;
+        font-size: 13px;
+    }
+}
