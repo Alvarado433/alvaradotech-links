@@ -6,6 +6,16 @@ O objetivo do projeto é reunir em uma única página os principais canais de co
 
 ---
 
+## 🌐 Projeto publicado
+
+Acesse o projeto online:
+
+```txt
+https://alvaradotech-links.vercel.app
+```
+
+---
+
 ## 📌 Sobre o projeto
 
 Este projeto funciona como uma página de apresentação rápida para a **AlvaradoTech**.
@@ -25,13 +35,14 @@ A página possui:
 
 ## 🚀 Tecnologias utilizadas
 
-* Next.js
-* React
-* TypeScript
-* CSS
-* React Icons
-* Git
-* GitHub
+* Next.js;
+* React;
+* TypeScript;
+* CSS;
+* React Icons;
+* Git;
+* GitHub;
+* Vercel.
 
 ---
 
@@ -70,7 +81,7 @@ public/
 
 ---
 
-## ⚙️ Como executar o projeto
+## ⚙️ Como executar o projeto localmente
 
 Primeiro, instale as dependências:
 
@@ -131,7 +142,8 @@ http://192.168.1.50:3000
 * CSS separado por responsabilidade;
 * Responsividade para telas menores;
 * Ajustes para celulares e iPhones;
-* Build de produção testado com sucesso.
+* Build de produção testado com sucesso;
+* Deploy realizado na Vercel.
 
 ---
 
@@ -210,11 +222,11 @@ A rota principal `/` foi gerada como página estática, ideal para uma página d
 
 ---
 
-## 🌐 Deploy
+## 🚀 Deploy
 
-O projeto será publicado utilizando a **Vercel**, conectada ao repositório do GitHub.
+O projeto está publicado na **Vercel** e conectado ao repositório do GitHub.
 
-Fluxo planejado:
+Fluxo utilizado:
 
 ```txt
 GitHub
@@ -226,21 +238,23 @@ Deploy automático
 Link público oficial
 ```
 
+Sempre que houver um novo `git push` na branch principal, a Vercel poderá gerar uma nova versão do projeto automaticamente.
+
 ---
 
 ## 📌 Status do projeto
 
-Projeto em desenvolvimento.
+Projeto publicado e em evolução.
 
 Próximas melhorias planejadas:
 
-* Publicação na Vercel;
+* Atualização dos links oficiais;
 * Ajustes finais de SEO;
 * Configuração de domínio próprio;
 * Criação da página de portfólio;
 * Melhorias visuais;
 * Animações leves;
-* Atualização dos links oficiais.
+* Novas seções para serviços da AlvaradoTech.
 
 ---
 
