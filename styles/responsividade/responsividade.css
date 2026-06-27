@@ -1,0 +1,103 @@
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+@media (max-width: 768px) {
+    .HomeCentralizado {
+        padding: 24px 16px;
+    }
+
+    .CardPrincipal {
+        width: 100%;
+        max-width: 480px;
+        padding: 32px 24px;
+    }
+
+    .CardPrincipalLogo {
+        width: 100px;
+        height: 100px;
+    }
+
+    .Titulo {
+        font-size: 36px;
+        line-height: 1.1;
+    }
+
+    .TituloDescricao {
+        font-size: 16px;
+        line-height: 1.5;
+        max-width: 320px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .BotaoLink {
+        padding: 15px 18px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .HomeCentralizado {
+        padding: 16px 12px;
+    }
+
+    .CardPrincipal {
+        padding: 28px 20px;
+        border-radius: 22px;
+    }
+
+    .CardPrincipalLogo {
+        width: 88px;
+        height: 88px;
+    }
+
+    .Titulo {
+        font-size: 32px;
+        line-height: 1.1;
+    }
+
+    .TituloDescricao {
+        font-size: 15px;
+        line-height: 1.5;
+        max-width: 300px;
+    }
+
+    .BotaoLink {
+        margin-top: 12px;
+        padding: 14px 16px;
+        font-size: 15px;
+        border-radius: 13px;
+    }
+
+    .BotaoIcone {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 360px) {
+    .CardPrincipal {
+        padding: 24px 16px;
+    }
+
+    .Titulo {
+        font-size: 28px;
+    }
+
+    .TituloDescricao {
+        font-size: 14px;
+    }
+
+    .BotaoLink {
+        padding: 13px 14px;
+        font-size: 14px;
+    }
+
+    .CardPrincipalLogo {
+        width: 80px;
+        height: 80px;
+    }
+}
