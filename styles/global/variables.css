@@ -1,0 +1,44 @@
+:root{
+
+    /* ===============================
+       CORES
+    =============================== */
+
+    --Background: #FFFFFF;
+    --Foreground: #171717;
+
+    --CardPrincipal: rgba(255,255,255,.03);
+    --BorderCard: rgba(255,255,255,.08);
+
+    --TextoPrincipal: #FFFFFF;
+    --TextoSecundario: #A0A0A0;
+
+    --VerdePrincipal: #00FFC2;
+
+    /* ===============================
+       TIPOGRAFIA
+    =============================== */
+
+    --Titulo: 42px;
+
+    --Descricao: 18px;
+
+    /* ===============================
+       ESPAÇAMENTOS
+    =============================== */
+
+    --PaddingCard: 50px;
+
+    --RaioCard: 20px;
+
+    /* ===============================
+       EFEITOS
+    =============================== */
+
+    --BlurCard: 8px;
+
+    --GlowLogo: 0 0 18px rgba(0,255,194,.35);
+
+    --GlowLogoHover: 0 0 28px rgba(0,255,194,.70);
+
+}

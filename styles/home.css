@@ -1,0 +1,73 @@
+.HomeCentralizado{
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+.CardPrincipal{
+
+    width:100%;
+
+    max-width:500px;
+
+    padding:var(--PaddingCard);
+
+    border-radius:var(--RaioCard);
+
+    background:var(--CardPrincipal);
+
+    border:1px solid var(--BorderCard);
+
+    backdrop-filter:blur(var(--BlurCard));
+
+    text-align:center;
+
+}
+
+.Titulo{
+
+    color:var(--TextoPrincipal);
+
+    font-size:var(--Titulo);
+
+    font-weight:700;
+
+}
+
+.TituloDescricao{
+
+    color:var(--TextoSecundario);
+
+    font-size:var(--Descricao);
+
+    margin-top:15px;
+
+    line-height:28px;
+
+}
+
+.CardPrincipalLogo{
+
+    display:block;
+
+    margin:0 auto 30px;
+
+    filter:drop-shadow(var(--GlowLogo));
+
+    transition:.3s;
+
+}
+
+.CardPrincipalLogo:hover{
+
+    transform:scale(1.05);
+
+    filter:drop-shadow(var(--GlowLogoHover));
+
+}
