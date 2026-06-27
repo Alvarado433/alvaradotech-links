@@ -4,7 +4,7 @@ export const site = {
     titulo: "AlvaradoTech | Links",
     descricao: "Links oficiais da AlvaradoTech Soluções Digitais",
     autor: "Rhaian Alvarado",
-    url: "https://alvaradotech.br"
+    url: "https://alvaradotech-links.vercel.app"
 };
 
 export const dados = {
@@ -12,20 +12,21 @@ export const dados = {
     descricao: "Desenvolvimento Web • Sistemas • Automações",
     logo: "/Imagens/logo2.png"
 };
+
 export const botoes = [
     {
         texto: "WhatsApp",
-        link: "#",
+        link: "https://wa.me/5511949516737?text=Ol%C3%A1%2C%20vim%20pelo%20link%20da%20AlvaradoTech.",
         icone: FaWhatsapp
     },
     {
         texto: "Instagram",
-        link: "#",
+        link: "https://www.instagram.com/alvaradotech.br/",
         icone: FaInstagram
     },
     {
         texto: "GitHub",
-        link: "#",
+        link: "https://github.com/Alvarado433",
         icone: FaGithub
     },
     {
@@ -37,7 +38,7 @@ export const botoes = [
         texto: "Portfólio",
         link: "#",
         disabled: true,
-        descricao: "em construçao",
+        descricao: "em construção",
         icone: FaGlobe
     }
 ];
