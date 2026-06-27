@@ -1,36 +1,195 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AlvaradoTech Links
 
-## Getting Started
+Página de links oficial da **AlvaradoTech Soluções Digitais**, criada com **Next.js**, **React**, **TypeScript** e **CSS modularizado**.
 
-First, run the development server:
+O objetivo do projeto é reunir em uma única página os principais canais de contato, redes sociais e links profissionais da marca.
+
+---
+
+## 📌 Sobre o projeto
+
+Este projeto funciona como uma página de apresentação rápida para a AlvaradoTech.
+
+A página possui:
+
+* Logo da empresa;
+* Nome e descrição profissional;
+* Botões com ícones;
+* Links para WhatsApp, Instagram, GitHub, LinkedIn e Portfólio;
+* Estado visual para botão em construção;
+* Layout responsivo para celular, tablet e iPhone.
+
+---
+
+## 🚀 Tecnologias utilizadas
+
+* Next.js
+* React
+* TypeScript
+* CSS
+* React Icons
+* Git e GitHub
+
+---
+
+## 📁 Estrutura principal
+
+```txt
+app/
+├── Dados/
+│   └── empresa.tsx
+├── globals.css
+├── layout.tsx
+└── page.tsx
+
+components/
+└── button/
+    ├── button.tsx
+    └── button.type.ts
+
+styles/
+├── background.css
+├── home.css
+├── componentes/
+│   └── buttons.css
+├── global/
+│   └── variables.css
+├── reset/
+│   └── reset.css
+└── responsividade/
+    └── responsividade.css
+
+public/
+└── Imagens/
+    └── logo2.png
+```
+
+---
+
+## ⚙️ Como executar o projeto
+
+Primeiro, instale as dependências:
+
+```bash
+npm install
+```
+
+Depois, execute o servidor de desenvolvimento:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abra no navegador:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```txt
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 📱 Teste no celular pela mesma rede Wi-Fi
 
-To learn more about Next.js, take a look at the following resources:
+Execute o projeto liberando acesso na rede:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm run dev -- -H 0.0.0.0
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Depois descubra o IP do computador:
 
-## Deploy on Vercel
+```bash
+hostname -I
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+No celular, abra:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```txt
+http://SEU-IP:3000
+```
+
+Exemplo:
+
+```txt
+http://192.168.1.50:3000
+```
+
+---
+
+## 🌐 Teste com link público temporário
+
+Para testar usando dados móveis, é possível usar o LocalTunnel:
+
+```bash
+npx localtunnel --port 3000
+```
+
+O terminal vai gerar um link público temporário.
+
+---
+
+## 🧩 Funcionalidades
+
+* Botões reutilizáveis com componente próprio;
+* Ícones utilizando `react-icons`;
+* Dados da empresa separados da estrutura visual;
+* CSS organizado por responsabilidade;
+* Responsividade para telas menores;
+* Ajustes específicos para celulares e iPhones;
+* Botão de portfólio com estado visual de construção.
+
+---
+
+## 🛠️ Comandos úteis
+
+Verificar alterações no Git:
+
+```bash
+git status
+```
+
+Adicionar arquivos:
+
+```bash
+git add .
+```
+
+Criar commit:
+
+```bash
+git commit -m "mensagem do commit"
+```
+
+Enviar para o GitHub:
+
+```bash
+git push
+```
+
+Gerar build de produção:
+
+```bash
+npm run build
+```
+
+---
+
+## 📌 Status do projeto
+
+Projeto em desenvolvimento.
+
+Próximas melhorias planejadas:
+
+* Publicação na Vercel;
+* Ajustes finais de SEO;
+* Criação da página de portfólio;
+* Melhorias visuais;
+* Animações leves;
+* Integração com domínio próprio.
+
+---
+
+## 👨‍💻 Autor
+
+Desenvolvido por **Rhaian Alvarado**
+Projeto da **AlvaradoTech Soluções Digitais**
